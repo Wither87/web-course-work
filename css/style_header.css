@@ -1,0 +1,191 @@
+.top_block_blue{
+	box-sizing: border-box;
+	width: 100%;
+	
+	height: auto;
+	background: radial-gradient(75.49% 75.49% at 61.01% 75.77%, #376A9A 0%, #2B5276 100%);
+	color: #fff;
+}
+
+@media(max-device-width:999px) {
+    .top_block_blue{
+        padding: 10px 10px 0px 10px; 
+    }
+}
+
+.line{
+    margin-left: 50px;
+    margin-right: 30px;
+    width: 14px;
+    height: 16px;
+    left: 305px;
+    top: 46px;
+}
+.header_name{
+    font-size: 13px; 
+    color: #A9C5E0 
+}
+
+.rocket{
+    width: 16px;
+    height: 16px;
+    left: 135px;
+    top: 45px;
+
+}
+.uxepress{
+    width: 100px;
+    height: 14px;
+    left: 155px;
+    top: 47px;
+}
+
+.header_telephone_img{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-right: 5px;
+    align-items: center;
+}
+
+/* Компьютер header*/
+.top_header_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_header_yellow_square{
+    width: 170px;
+    height: 52px;
+    border: 1px solid #E5E31F;
+    border-radius: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    margin-left: 50px; 
+    cursor: pointer;
+}
+
+.header_phone_number{
+    margin-left: 5px;
+    color: #A9C5E0;
+    text-align: right;
+}
+
+.top_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 135px 0 135px;
+}
+
+@media(max-device-width:999px) {
+    .top_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.top_header_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.in_button{
+    font-family: Proxima Nova;
+    font-size: 18px;
+    line-height: 22px;
+    color: #E5E31F;
+}
+
+.proxima_nova{
+    font-family: Proxima Nova;
+}
+
+.proxima_nova_light{
+    font-family: Proxima Nova Light;
+}
+
+/* Телефон header*/
+@media(max-device-width:400px) {
+    .line{
+        display:none;
+    }
+    .header_name{
+        display:none;
+    }
+    .header_telephone_img{
+        display:none;
+    }
+    .header_phone_number{
+        display:none;
+    }
+    .phone_img{
+        display:none;
+    }
+
+    .top_header_yellow_square{
+        width: 170px;
+        height: 52px;
+        border: 1px solid #E5E31F;
+        border-radius: 10px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        margin-top: 27px;
+        margin-bottom: 27px;
+        margin-left: 50px; 
+    }
+    .rocket{
+        width: 16px;
+        height: 16px;
+    }
+    .uxepress{
+        width: 100px;
+        height: 14px;
+    }
+    .container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+}
+
+/* Планшет header*/
+@media(max-width:999px) {
+    .top_header_yellow_square{
+        width: 170px;
+        height: 52px;
+        border: 1px solid #E5E31F;
+        border-radius: 10px;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        margin-top: 27px;
+        margin-bottom: 27px;
+        margin-left: 50px; 
+    }
+
+    .top_header_right{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:flex-end;
+        text-align: right;
+    }
+    
+    .container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+

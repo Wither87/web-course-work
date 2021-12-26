@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\login.css">
+    <link rel="stylesheet" href="css\style_header.css">
+    <link rel="stylesheet" href="css\style_bottom.css">
+    <link rel="stylesheet" href="css\style_center.css">
+    <link rel="stylesheet" href="css\style_slider.css">
+</head>
+
+<body>
+    <div id="authorization_window" class="hidden_window">
+        <div class="window_box">
+            <img src=".\sourse\cross.svg" alt="cross_exit_img" class="login_exit_button" id="login_exit_button">
+            <div class="login_inside_wrapper">
+                <div class="login_header">Авторизация</div>
+                <div class="login_text">Введите логин и пароль, чтобы войти в личный кабинет</div>
+                <form action="#">
+                    <input class="login_login" id="login_login" type="input" placeholder="Логин" required minlength="4"
+                        maxlength="10" />
+                    <input class="login_password" id="login_password" type="password" placeholder="Пароль" required
+                        minlength="4" maxlength="10" />
+                    <button class="login_enter" id="login_enter" type="submit">Вход</button>
+                </form>
+            </div>
+        </div>
+        <div class="login_background" id="login_background"></div>
+    </div>
+    <div class="top_block_blue">
+        <div class="container top_header">
+            <div class="top_header_left">
+                <div>
+                    <img class="rocket" src=".\sourse\rocket.svg" alt="img of rocket" />
+                    <img class="uxepress" src=".\sourse\UXEPRESS.svg" alt="uxepress" />
+                </div>
+                <div class="line">
+                    <svg width="1" height="14" viewBox="0 0 1 14" fill="none">
+                        <line x1="0.5" y1="2.18557e-08" x2="0.499999" y2="14" stroke="#A9C5E0" />
+                    </svg>
+                </div>
+                <div class="header_name proxima_nova_light">Курьерская служба доставки</div>
+            </div>
+
+            <div class="top_header_right">
+                <div class="header_telephone_img">
+                    <img class="phone_img" src=".\sourse\phone.svg" alt="phone_img" viewBox="0 0 1 14" />
+                    <span class="header_phone_number proxima_nova_light">8 (909) 023-12-51</span>
+                </div>
+
+                <div class="top_header_yellow_square" id="top_header_yellow_square">
+                    <span class="in_button">Вход</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider_box container">
+            <div id="slider_line">
+                <div class="slide_box" id="slide1">
+                    <div class="slide_text">
+                        <div class="slide_info_header">Срочная доставка день в день</div>
+                        <div class="slide_info_text">
+                            Для тех, кто не может ждать у нас есть услуга срочной курьерской
+                            доставки корреспондеции и других видов отправлений.
+                        </div>
+                        <div class="slide_yellow_button">
+                            <div>Заказать доставку</div>
+                        </div>
+                    </div>
+                    <div class="slide_picture_car">
+                        <img src=".\sourse\big_car.png" alt="big_car.img" />
+                    </div>
+                </div>
+
+                <div class="slide_box" id="slide2">
+                    <div class="slide_text">
+                        <div class="slider_text">
+                            <div class="slide_info_header">Подписание договора за 1 час</div>
+                            <div class="slide_info_text">
+                                В течение часа наш курьер заберет вашу посылку и подпишет с Вами
+                                договор о предоставлении услуг.
+                            </div>
+                        </div>
+
+                        <div class="slide_yellow_button">
+                            <div>Заказать доставку</div>
+                        </div>
+                    </div>
+                    <div class="slide_picture_doc">
+                        <img src=".\sourse\big_document.png" alt="document.img" />
+                    </div>
+                </div>
+                <div class="slide_box" id="slide3">
+                    <div class="slide_text">
+                        <div class="slide_info_header">Срочная доставка день в день</div>
+                        <div class="slide_info_text">
+                            Для тех, кто не может ждать у нас есть услуга срочной курьерской
+                            доставки корреспондеции и других видов отправлений.
+                        </div>
+                        <div class="slide_yellow_button">
+                            <div>Заказать доставку</div>
+                        </div>
+                    </div>
+                    <div class="slide_picture_car">
+                        <img src=".\sourse\big_car.png" alt="big_car.img" />
+                    </div>
+                </div>
+            </div>
+            <div class="slide_button_line">
+                <div class="slide_button_wrapper">
+                    <div id="slide_button1">
+
+                    </div>
+                    <div id="slide_button2">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="center_container container">
+        <h3 class="center_header">5 шагов к заявке</h3>
+        <div class="center-items">
+            <div class="center-item">
+                <img src=".\sourse\calculator.svg">
+                <p class="center-item-text">Расчетать стоимость</p>
+                <p class="center-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi
+                    nesciunt.</p>
+            </div>
+            <div class="center-item">
+                <img src=".\sourse\car.svg">
+                <p class="center-item-text">Вызвать курьера</p>
+                <p class="center-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi
+                    nesciunt.</p>
+            </div>
+            <div class="center-item">
+                <img src=".\sourse\hand.svg">
+                <p class="center-item-text">Оплатить услуги</p>
+                <p class="center-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi
+                    nesciunt.</p>
+            </div>
+            <div class="center-item">
+                <img src=".\sourse\document.svg">
+                <p class="center-item-text">Заключить договор</p>
+                <p class="center-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi
+                    nesciunt.</p>
+            </div>
+            <div class="center-item">
+                <img src=".\sourse\passport.svg">
+                <p class="center-item-text">Предоставить данные</p>
+                <p class="center-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elitsequi
+                    nesciunt.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom_container container container_with_top">
+
+        <div class="uxepress_wrapper">
+            <img class="rocket" src=".\sourse\rocket.svg" alt="img of rocket" />
+            <img class="uxepress" src=".\sourse\UXEPRESS.svg" alt="uxepress" />
+        </div>
+
+        <div class="bottom_proxima_nova_white">
+            <div>
+                <div class="bottom_text">
+                    <a class="bottom_text_link" href="#">О компании</a>
+                </div>
+                <div class="bottom_text">
+                    <a class="bottom_text_link" href="#">Вакансии</a>
+                </div>
+                <div class="bottom_text">
+                    <a class="bottom_text_link" href="#">Клиенту</a>
+                </div>
+                <div class="bottom_text">
+                    <a class="bottom_text_link" href="#">Франчайзинг</a>
+                </div>
+            </div>
+            <div>
+                <div class="bottom_text">
+                    <a class="bottom_text_link" href="#">Доставка из Китая</a>
+                </div>
+                <div class="bottom_text">
+                    <a class="bottom_text_link" href="#">Все услуги</a>
+                </div>
+                <div class="bottom_text">
+                    <a class="bottom_text_link" href="#">Акции</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bottom_contact_box_wrap">
+            <div class="bottom_contact_box">
+                <div class="bottom_text bottom_proxima_nova_blu">manager@uexpress.ru</div>
+                <div class="bottom_text bottom_proxima_nova_blu">115221, г. Челябинск, ул. Северная, д. 29-в</div>
+                <div class="bottom_text bottom_proxima_nova_blu">Мы работаем по 24 часа 5 дней в неделю</div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/auth_window.js"></script>
+</body>

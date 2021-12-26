@@ -1,0 +1,177 @@
+.slide_info_header{
+    font-family: Proxima Nova Bold;
+    font-size:64px;
+    text-align:left;
+    color: #ffffff;
+    flex-wrap: wrap;
+    width: 674px;
+}
+
+.slide_info_text{
+    font-family: Proxima Nova;
+    font-size:16px;
+    text-align:left;
+    color: #ffffff;
+    flex-wrap: wrap;
+    width: 560px;
+}
+
+.slide_yellow_button{
+    font-family: Proxima Nova Bold;
+    width: 240px;
+    height: 52px;
+    background: #E5E31F;
+    border-radius: 10px;
+    margin-top: 100px;
+    color: #2A4F71;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.slide_box{
+    margin-left: 150px;
+	overflow: hidden;
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.slide_button_line{
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+}
+.slide_button_wrapper{
+	width: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content:space-between ;
+
+}
+.active_button{
+	box-sizing: border-box;
+	width: 14px;
+	height: 14px;
+	background: #264160;
+	border-radius: 4px;
+}
+.passive_button{
+	box-sizing: border-box;
+	width: 14px;
+	height: 14px;
+	border: 3px solid #264160;
+	border-radius: 4px;
+}
+.slider_box{
+    box-sizing: border-box;
+    margin: auto;
+    width: 100%;
+    text-align:center;
+    overflow: hidden;
+    min-height: 550px;
+}
+.slide_picture_car{
+    width: 510px;
+    height: 612px; 
+    position: relative;
+    bottom: 0px;
+    right: 50px;
+}
+
+.slide_picture_doc{
+	width: 834px;
+	height: 575px;
+	position: relative;
+	bottom: -38px;
+	right: -125px;
+}
+
+#slider_line{
+    width: 300%;
+    box-sizing: border-box;
+    display: flex;
+    position: relative;
+    left: 0px;
+    bottom: -15px;
+    transition: all ease 1s; 
+}
+
+/* переход к 3 сладйу - 1 фейк, transition - никакой -> переход на настоящий слайд 1 */
+.slide_text{
+    padding-top: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.between_slides{
+    width: 100px;
+}
+
+@media(max-device-width:999px) {
+    .slide_picture_car{
+        display:none;
+    }    
+    .slide_picture_doc{
+        display:none;
+    }
+    .slide_yellow_button{
+        display:none;
+    }
+    .slide_box{
+        margin-left: 15px;
+        overflow: hidden;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .slider_text{
+        margin-top: 0% auto;
+        margin-bottom: 0% auto;
+    }
+    .slide_button_line{
+        bottom: -150px;
+    }
+}
+
+@media(max-device-width:400px) {
+    .slide_picture_car{
+        display:none;
+    }
+    .slide_picture_doc{
+        display:none;
+    }
+    .slide_yellow_button{
+        font-family: Proxima Nova Bold;
+        width: 345px;
+        height: 52px;      
+        background: #E5E31F;
+        border-radius: 10px;
+        margin-top: 100px;
+        color: #2A4F71;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-right: 0% auto;
+        margin-right: 0% auto;
+    }
+    .slide_box{
+        margin-left: 0px;
+    }
+    .slide_info_header{
+        font-size:38px;
+        
+    }
+    .slider_text{
+        margin-left: 10px;
+    }
+    .slide_button_line{
+        bottom: -120px;
+    }
+}

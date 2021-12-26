@@ -1,0 +1,58 @@
+.center_container{
+    max-width: 1170px;
+    background-color: white;
+    color: #000000;
+    padding-top: 96px;
+    margin-bottom: 26px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.center_header{
+    margin-bottom: 40px;
+    font-family: Proxima Nova Bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #2A496B;
+}
+
+.center-text{
+	position: relative;
+    top: 30px;
+	font-size: 28px;
+	font-family: "Proxima Nova Bold";
+	text-align: center;
+	justify-content: center;
+}
+
+.center-items{
+	position: relative;
+    top: 30px;
+	text-align: center;
+}
+
+.center-item{
+	display: inline-block;
+	text-align: center;
+	width: 387px;
+	height: 200px;
+	margin: 50px 0;
+}
+
+.center-item-text{
+	font-size: 20px;
+	font-family: "Proxima Nova Semibold";
+	position: relative;
+	top: 30px;
+}
+
+.center-item-description{
+	font-size: 15px;
+	font-family: Proxima Nova;
+	position: relative;
+	top: 60px;
+}
